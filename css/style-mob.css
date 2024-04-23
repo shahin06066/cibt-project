@@ -88,12 +88,12 @@
    
     .ed-mob-menu{
         display:block;
-        background-color: #fff;
+        background-color: #990404;
         height: fit-content;
     
    }
      .search-top{
-         margin-top: 55px;
+         margin-top: 65px;
          border: 0px;
     }
      .carousel {
@@ -170,6 +170,7 @@
          background: #f5f5f5;
          border: 5px solid #fff !important;
          border-radius: 5px;
+       
     }
      .ed-advan ul li:nth-child(1){
          border:0px;
@@ -303,10 +304,13 @@
 
     .ed-mob-menu{
         display:block;
-        background-color: #fff;
-         height: fit-content;
+        background-color:#993410;
+         height: fit-content; 
+         margin-bottom: 40px;
         /* height: 100px; */
    }
+ 
+ 
 }
 
 /*-------------------------------------------------------*/
