@@ -568,8 +568,7 @@
      border-right: 1px groove #6a83a0;
 }
  .wed-foot-link div:last-child{
-     border-right:0px solid #dadada;
-     ;
+     border-right:1px solid #dadada;
 }
  .wed-video2{
      padding: 50px 0px;
@@ -609,7 +608,8 @@
     
 }
  .wed-rights{
-     background-color: #2C2C2C;
+ background-color: #2C2C2C;
+  
 }
  .wed-rights p{
      text-align: center;
@@ -617,6 +617,7 @@
      padding: 8px;
      color: #fff;
      font-size: 13px;
+   
 }
  .sprite-android{
      background: url(../images/sprite.png) no-repeat -12px -15px;
@@ -3698,18 +3699,18 @@ left: 0;
  .ed-micon i{
      width: 32px;
      height: 32px;
-     border: 1px solid #0a2444;
+     border: 1px solid #fff;
      text-align: center;
      font-size: 20px;
      padding: 5px;
      border-radius: 2px;
      margin-top: 10px;
-     color: #0a2444;
+     color: #fff;
      cursor: pointer;
 }
  .ed-mm-inn{
      position: fixed;
-     width: 70%;
+     width: 35%;
      background: #fff;
      padding: 50px;
      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
@@ -3747,6 +3748,12 @@ left: 0;
 }
  .ed-mm-inn h4{
 }
+/* .fa-check {
+    color: #fff;
+    background-color: #fff;
+    border: 1px solid red;
+} */
+
  .ed-mm-inn ul{
      margin-bottom: 30px;
      margin-top: 10px;
