@@ -614,7 +614,7 @@
     
 }
  .wed-rights{
- background-color: #2C2C2C !important;
+ background-color: #7F1108!important;
   
 }
  .wed-rights p{
@@ -1573,12 +1573,12 @@
      font-weight: 600;
      text-transform: uppercase;
      padding: 13px;
-     border: 1px solid #993410;
+     border: 1px solid #7F1108;
      border-top-right-radius: 2px;
      border-bottom-right-radius: 2px;
-     background: #993410;
-     background: -webkit-linear-gradient(to top,  #993410,  #993410);
-     background: linear-gradient(to top,  #993410,  #993410);
+     background: #7F1108;
+     background: -webkit-linear-gradient(to top,  #7F1108,  #7F1108);
+     background: linear-gradient(to top,  #7F1108,  #7F1108);
 }
 
 /*-------------------------------------------------*/
@@ -3655,7 +3655,7 @@ left: 0;
      height: 90px;
 }
  .footer-part-form ul li input[type="submit"] {
-     background: #993410;
+     background: #973515;
      border: 0px solid #c4c4c4;
      color: #fff;
      width: 100%;
@@ -3670,7 +3670,7 @@ left: 0;
      top:0px;
      width:100%;
      height:fit-content;
-     background:#993410 !important;
+     background:#7F1108!important;
      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
      z-index: 999;
      display:none;
