@@ -8,6 +8,9 @@
     width:100%;
    
 }
+.ed-mob-menu{
+    background-color: #7F1108 !important;
+}
 
 
 
@@ -88,8 +91,8 @@
    
     .ed-mob-menu{
         display:block;
-        background-color: #7F1108;
-        height: fit-content;
+        background-color: #7F1108 !important;
+         height: fit-content;
     
    }
      .search-top{
@@ -304,7 +307,7 @@
 
     .ed-mob-menu{
         display:block;
-        background-color:#7F1108;
+        background-color:#7F1108 !important;
          height: fit-content; 
          margin-bottom: 40px;
         /* height: 100px; */
