@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <title>CIBT-Crown Institute of Business and Technology</title>
     <!-- META TAGS -->
@@ -27,7 +25,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!-- Brittany Signature front cdn -->
-<link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
 </head>
 
 <body>
@@ -64,7 +62,7 @@
                             </ul>
 
                             <h4>All Courses</h4>
-                            <ul>
+                              <ul>
                                 <li><a href="course-details.html">Accounting/Finance</a></li>
                                 <li><a href="course-details.html">civil engineering</a></li>
                                 <li><a href="course-details.html">Art/Design</a></li>
@@ -81,7 +79,7 @@
                                 <li><a href="course-details.html">Graphics Design</a></li>
                                 <li><a href="course-details.html">Networking Courses</a></li>
                                 <li><a href="course-details.html">Information technology</a></li>
-                            </ul>
+                              </ul>
 
                             <h4>User Account</h4>
                             <ul>
@@ -116,7 +114,7 @@
                              <marquee behavior="" direction="">
                                 <li><a href="#">Address: Road 21/A, House #05,Nikunjo-02, Dhaka-1229,</a>
                                 </li>
-                                <li><a href="#">Phone: +8801822889900</a>
+                                <li><a href="#">Phone:+8801822889900</a>
                                 </li>
                              </marquee>
                             </ul>
@@ -310,7 +308,7 @@
                             <form>
                                 <div class="sf-type">
                                     <div class="sf-input">
-                                        <input type="text" id="sf-box" placeholder="Search course and discount courses">
+                                        <input type="text" id="sf-box"name="name" placeholder="Search course and discount courses">
                                     </div>
                                     <div class="sf-list">
                                         <ul>
@@ -353,46 +351,74 @@
                     <h2>Apply Online</h2>
                     <p>Fusce purus mauris, blandit vitae purus eget, viverra volutpat nibh. Nam in elementum nisi, a placerat nisi. Quisque ullamcorper magna in odio rhoncus semper.Sed nec ultricies velit. Aliquam non massa id enim ultrices aliquet a ac
                         tortor.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <p class="help-line">Help Line <span>+8801822889900</span> </p> <span class="help-arrow pulse"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
+                    <p></p>
+                    <p class="help-line">Help Line <span>+8801822889900</span> </p>
+                     <span class="help-arrow pulse"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+              </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="n-form-com admiss-form">
                     <div class="col s12">
-                        <form class="form-horizontal">
+                        <form id="form-horizontal" class="form-horizontal">
                             <div class="form-group">
-                                <p id="application-info">Application Information:</p>
-                                <br>
+                                
+                                <h4 style="color: #fff; margin-left: 15px;"> Applicant's Information:</h4>
+                                <p style="color: #fff; margin-left: 15px; font-size: 20px;">General Information:Step 1 out of 3 </p>
+                                
                                 <label class="control-label col-sm-3">Full Name:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                                    <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
                                 </div>
                             </div>
+
                             <div class="form-group">
-                                <label class="control-label col-sm-3">Phone:</label>
+                                <label class="control-label col-sm-3">Gender:</label>
                                 <div class="col-sm-9">
-                                    <input type="number" class="form-control" placeholder="Enter your phone number" required>
+                                 <select>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+							  </select>
+                           </div>
+
+                            <!-- class="form-control"  -->
+
+
+                            <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                <label class="control-label col-sm-3">Cell Number:</label>
+                                <div class="col-sm-9">
+                                    <input type="number" class="form-control"name="number" placeholder="Enter your cell number" required>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3">Gmail Id:</label>
+                            <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                <label class="control-label col-sm-3">Gmail:</label>
                                 <div class="col-sm-9">
-                                    <input type="email" class="form-control" placeholder="Enter email" required>
+                                    <input type="email" class="form-control"name="email" placeholder="Enter your gmail" required>
                                 </div>
+                            </div>
+
+                            <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                <label class="control-label col-sm-3">Education:</label>
+                                <div class="col-sm-9">
+                                 <select>
+                                    <option value="year">Graduated</option>
+                                    <option value="year">HSC</option>
+                                    <option value="year">SSC</option>
+							     </select>
                             </div>
                             <!-- <div class="form-group">
                                 <label class="control-label col-sm-3">Your City:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" placeholder="Enter your city">
+                                    <input type="text" class="form-control"name="name" placeholder="Enter your city">
                                 </div>
                             </div> -->
                             <!-- <div class="form-group">
                                 <label class="control-label col-sm-3">Education:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" placeholder="Enter your education">
+                                    <input type="text" class="form-control"name="name" placeholder="Enter your education">
                                 </div>
                             </div> -->
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label class="control-label col-sm-3">Programs:</label>
                                 <div class="col-sm-9">
                                     <select>
@@ -408,8 +434,8 @@
 								<option>Java Development</option>
 								<option>Chemical Engineering</option>
 							  </select>
-                                </div>
-
+                                </div> -->
+<!-- 
                                 <label class="control-label col-sm-3">Programs:</label>
                                 <div class="col-sm-9">
                                     <select>
@@ -426,10 +452,12 @@
 								<option>Chemical Engineering</option>
 							  </select>
                                 </div>
-                            </div>
+                            </div> -->
+                            <p></p>
                             <div class="form-group mar-bot-0">
                                 <div class="col-sm-offset-3 col-sm-9">
-                                    <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i>
+                                    <!-- <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i> -->
+                                    <a href="form3.html" style="font-size: larger;margin-left: 15px;"><button>Next</button></a>
                                 </div>
                             </div>
                         </form>
@@ -531,7 +559,7 @@
         <div class="container">
             <div class="row">
                 <div class="copy-right">
-                   <a style="color:#eec408; font-family:'Brittany Signature', sans-serif; font-weight: bold ;display: flex;justify-content: center;padding: 10px;" target="_blank" href="https://shahins.netlify.app">All rights reserved by____ <br> <span style="color: #fff ;font-family:'Brittany Signature', sans-serif; font-weight: bolder;">Sabbir Ahmed Shahin</span></a>
+                   <a style="color:#eec408; font-family:'poppins, sans-serif; font-weight: bold ;display: flex;justify-content: center;padding: 10px;" target="_blank" href="https://shahins.netlify.app">All rights reserved by____ <br> <span style="color: #fff ;font-family:'poppins, sans-serif; font-weight: bolder;">Sabbir Ahmed Shahin</span></a>
                 </div>
             </div>
         </div>
@@ -571,7 +599,7 @@
                         <div>
                             <div class="input-field s12">
                                 <input type="email" class="validate">
-                                <label>Email id</label>
+                                <label>Gmail</label>
                             </div>
                         </div>
                         <div>

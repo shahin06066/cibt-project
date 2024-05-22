@@ -3273,18 +3273,17 @@ left: 0;
 /*-------------------------------------------------*/
 
 /*-------------------------------------------------*/
-/* = 26.ADMISSIONN 
-/*-------------------------------------------------*/
+ /* 26.ADMISSIONN  */
  .quote-title {
-    
      text-align: center;
      padding: 0px 10px;
+     border: 1px solid red;
 }
  .quote-title h2 {
      text-transform: uppercase;
-     font-size: 62px;
+     font-size: 30px;
      color: #ffffff;
-     font-weight: 700;
+     font-weight: 600;
      letter-spacing: -1px;
     /* color: #ffbaa5;
      */
@@ -3309,16 +3308,17 @@ left: 0;
      font-family: 'Poppins', sans-serif;
 }
  .quote-title p {
-     color: #5eaaec;
+     color: #56aef7;
 }
  .quote-title {
 }
  .qu-new {
+    /* border: 1px solid red; */
 }
- .qu-new h5 {
+ .qu-new h2 {
      display: inline-block;
      padding: 5px 11px 2px 10px;
-     background: #FFC107;
+     background: #cf9f0c;
      font-size: 22px;
      margin-bottom: 25px;
      color: #fff;
@@ -3326,10 +3326,14 @@ left: 0;
      text-shadow: 0px 1px #fff, 0px -1px #262F33;
 }
  .help-line {
+    font-size: 35px !important;
+    color: #e01507 !important;
+    border: 1px solid red;
+    line-height:0% !important;
 }
  .help-line span {
      display: block;
-     font-size: 48px;
+     font-size: 30px;
      color: #ffffff;
      padding-top: 20px;
      line-height: 50px;
@@ -3352,7 +3356,7 @@ left: 0;
 }
  .help-line {
      margin-bottom: 0px;
-     font-size: 48px;
+     font-size: 35px;
      color: #ffffff;
      font-weight: 500;
      line-height: 46px;
@@ -3416,7 +3420,7 @@ left: 0;
      transition: all 0.5s ease;
      -webkit-transform: rotate(360deg);
      transform: rotate(360deg);
-     background: #f26939;
+     background: #8d2905 !important;
      color: #ffffff;
 }
  .box-item .icon {
@@ -3479,14 +3483,20 @@ left: 0;
      display: block;
      width: 100%;
 }
+/* 
+container */
+
  .admiss-form{
      padding: 0px 50px;
+     border: 1px solid red;
 }
  .admiss-form h4{
      font-size: 24px;
      font-weight: 800;
 }
  .admiss-form p{
+    margin-top: 20px;
+    
 }
  .admiss-form-tit{
 }
@@ -3509,7 +3519,8 @@ left: 0;
      font-size: 14px;
      margin-top: 7px;
 }
-/*-------------------------------------------------*/
+
+
 /* = 27.SEMINAR 
 
 /*-------------------------------------------------*/
@@ -3674,6 +3685,7 @@ left: 0;
      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
      z-index: 999;
      display:none;
+   
    
 }
  .ed-mob-menu-con{
@@ -4743,7 +4755,7 @@ left: 0;
 .admin-form{}
 .admin-form form{}
 .admin-form form input{
-border: 1px solid #e2e2e2;
+    border: 1px solid #e2e2e2;
     height: 40px;
     border-radius: 2px;
     font-size: 14px;
@@ -4752,7 +4764,7 @@ border: 1px solid #e2e2e2;
     margin-bottom: 8px;
 }
 .admin-form form textarea{
-border: 1px solid #e2e2e2;
+    border: 1px solid #e2e2e2;
     height: 100px;
     border-radius: 2px;
     font-size: 14px;
@@ -4771,7 +4783,7 @@ border: 1px solid #e2e2e2;
     padding: 0px;	
 }
 .admin-form form [type="submit"]{
-width: 100%;
+    width: 100%;
     display: block;
     padding: 1px 30px;
     font-size: 14px;
