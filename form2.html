@@ -352,101 +352,106 @@
                         <form id="form-horizontal" class="form-horizontal">
                             <div class="form-group">
                                 
-                                <h4 style="color: #fff; margin-left: 15px;"> Applicant's Information:</h4>
-                                <p style="color: #fff; margin-left: 15px; font-size: 20px;">Personal Information:Step 2 out of 3</p>
+                                <h4 style="margin-left: 15px;"> Applicant's Information</h4>
+                                <p style="margin-left: 15px; font-size: 20px;">Step 2:Personal Information</p>
                                 
-                                <label class="control-label col-sm-3">Full Name:</label>
+                                <label id="color" class="control-label col-sm-3">First Name:</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
+                                    <input type="text" class="form-control" name="name" placeholder="Enter your first name" required>
+                                </div>
+                                <label id="color" class="control-label col-sm-3">Last Name:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" name="name" placeholder="Enter your last name" required>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label class="control-label col-sm-3">Gender:</label>
+                                <label id="color" class="control-label col-sm-3">Gender:</label>
                                 <div class="col-sm-9">
                                  <select>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                     <option value="other">Other</option>
-								
 							  </select>
                            </div>
 
+                           
+                           <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                            <label id="color" class="control-label col-sm-3" for="dob">Date of Birth:</label>
+                            
+                            <div class="col-sm-9">
+                                <input class="form-control" type="date" id="dob" name="dob" required> 
+                            </div>
+                          </div>
+                         <!-- juhkudsghff -->
+                        <!-- juhkudsghff -->
+                      
+                    <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                        <label id="color" class="control-label col-sm-3">Religion:</label>
+                        <div class="col-sm-9">
+                         <select>
+                            <option value="male">Islam</option>
+                            <option value="female">Hindu</option>
+                            <option value="other">Chrishtian</option>
+                      </select>
+                      </div>
+                    </div>
+
+                       <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                        <label id="color" class="control-label col-sm-3">Marital Status:</label>
+                        <div class="col-sm-9">
+                         <select>
+                            <option value="male">Single</option>
+                            <option value="female">Married</option>
+                            <option value="female">Divorced</option>
+                            <option value="female">Widow</option>
+                        </select>
+                       </div>
+
+                       <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                        <label id="color" class="control-label col-sm-3">Blood Group:</label>
+                        <div class="col-sm-9">
+                         <select>
+                            <option value="">O+(positive)</option>
+                            <option value="">O-(negative)</option>
+                            <option value="">A+(positive)</option>
+                            <option value="">A-(negative)</option>
+                            <option value="">AB+(positive)</option>
+                            <option value="">AB-(negative)</option>
+                         </select>
+                       </div>
+                       </div>
+                      
+                     
+                      
                             <!-- class="form-control"  -->
                             <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
-                                <label class="control-label col-sm-3">Cell Number:</label>
+                                <label id="color" class="control-label col-sm-3">Cell Number:</label>
                                 <div class="col-sm-9">
                                     <input type="number" class="form-control" name="number" placeholder="Enter your cell number" required>
                                 </div>
                             </div>
+
                             <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
-                                <label class="control-label col-sm-3">Gmail:</label>
+                                <label id="color" class="control-label col-sm-3">National ID Card Number:</label>
+                                <div class="col-sm-9">
+                                    <input type="number" class="form-control" name="number" placeholder="Enter National ID Card Number" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                <label id="color" class="control-label col-sm-3">Gmail:</label>
                                 <div class="col-sm-9">
                                     <input type="email" class="form-control" name="email" placeholder="Enter your gmail" required>
                                 </div>
                             </div>
 
-                            <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
-                                <label class="control-label col-sm-3">Education:</label>
-                                <div class="col-sm-9">
-                                 <select>
-                                    <option value="year">Graduated</option>
-                                    <option value="year">HSC</option>
-                                    <option value="year">SSC</option>
-							     </select>
-                            </div>
-                            <!-- <div class="form-group">
-                                <label class="control-label col-sm-3">Your City:</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter your city">
-                                </div>
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <label class="control-label col-sm-3">Education:</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter your education">
-                                </div>
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <label class="control-label col-sm-3">Programs:</label>
-                                <div class="col-sm-9">
-                                    <select>
-								<option>Select Undergraduate Programs:</option>
-								<option>B.Sc. in Computer Science & Engineering (CSE)</option>
-								<option>B.Sc. in Mathematics</option>							
-								<option>B.Sc. in Electrical and Electronic Engineering (EEE)</option>
-								<option>Department of Accounting </option>
-								<option>Department of Finance</option>
-								<option>Department of Management</option>
-								<option>Department of Marketing</option>
-								<option>Department of Tourism and Hospitality Management</option>
-								<option>Java Development</option>
-								<option>Chemical Engineering</option>
-							  </select>
-                                </div> -->
-<!-- 
-                                <label class="control-label col-sm-3">Programs:</label>
-                                <div class="col-sm-9">
-                                    <select>
-								<option>Select Graduate Programs</option>
-								<option>Department of Tourism and Hospitality Management</option>
-								<option>Department of Marketing</option>							
-								<option>M.Sc. in Electrical and Electronic Engineering (EEE)</option>
-								<option>Department of Accounting </option>
-								<option>Department of Finance</option>
-								<option>Department of Management</option>
-								<option>Department of Marketing</option>
-								<option>Department of Tourism and Hospitality Management</option>
-								<option>Java Development</option>
-								<option>Chemical Engineering</option>
-							  </select>
-                                </div>
-                            </div> -->
-                            <p></p>
-                            <div class="form-group mar-bot-0">
+                          
+
+                            <div class="form-group mar-bot-0" style="margin-left: 1px; margin-right: 1px;">
                                 <div class="col-sm-offset-3 col-sm-9">
                                     <!-- <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i> -->
-                                    <a style="font-size: larger;margin-left: 15px;" href="form3.html"><button>Next</button></a>
+                                    <a style="font-size: larger; background-color: aliceblue; padding: 2px;" href="form3.html">Next</a>
                                 </div>
                             </div>
                         </form>
