@@ -571,15 +571,3 @@
     }
 }
 
-/*-------------------------------------------------------*/
-/* When the browser is between 1366px to above wide,below css will be applied.
-/*-------------------------------------------------------*/
- /* @media screen and (min-width: 1366px){
-     .semi-inn {
-         width: 1000px;
-    }
-    .ed-mob-menu{
-        background-color: #7F1108;
-    }
-}
-  */

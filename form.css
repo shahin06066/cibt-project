@@ -62,7 +62,7 @@
    #custom-section{
     max-width: 100%;
     height: auto;
-    margin: 0px 35px;
+    margin: 0px 15px;
     }
 
     .form-controll{
@@ -72,32 +72,12 @@
   
    .items{
     display: flex;
-    border: 1px solid rgb(255, 0, 21);
     height: auto !important;
+    border: 1px solid rgb(230, 225, 225);
     
    }
 
    .iconn{
     border-radius:60%;
     border: 1px solid rgb(160, 137, 137);
-
-    /* height: fit-content !important;
-    justify-content: center; */
-    
-    /* width: 60px; */
    }
-
-   /* application form */
-   /* .form-group {
-    border: 1px solid red;
-    margin: 5px;
-   }
-  .form-control {
-    border: 1px solid red !important;
-    box-shadow: 12px 12px 0px 0px ;
-  }
-
-   #form-horizontal {
-    border: 1px solid red;
-    margin: 20px !important;
-   } */ */

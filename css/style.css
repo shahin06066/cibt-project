@@ -63,13 +63,13 @@ custom css */
      margin-bottom: 40px;
 }
  .con-title h2{
-     font-size: 36px;
+     font-size: 33px;
      margin-top: 0px;
      margin-bottom: 15px;
      line-height: 40px;
 }
  .con-title h2 span{
-     font-size: 36px;
+     font-size: 33px;
      font-weight:700;
      color: #922f0e;
      line-height: 40px;
@@ -3284,7 +3284,6 @@ left: 0;
  .quote-title {
      text-align: center;
      padding: 0px 10px;
-     border: 1px solid red;
 }
  .quote-title h2 {
      text-transform: uppercase;
@@ -3325,23 +3324,22 @@ left: 0;
  .qu-new h2 {
      display: inline-block;
      padding: 5px 11px 2px 10px;
-     background: #cf9f0c;
-     font-size: 22px;
-     margin-bottom: 25px;
+     background: #d8a611;
+     font-size: 20px;
+     margin-bottom: 20px;
      color: #fff;
-     font-style: italic;
+     border-radius: 3px;
      text-shadow: 0px 1px #fff, 0px -1px #262F33;
 }
  .help-line {
     font-size: 35px !important;
     color: #e01507 !important;
-    border: 1px solid red;
     line-height:0% !important;
 }
  .help-line span {
      display: block;
      font-size: 30px;
-     color: #ffffff;
+     color: red;
      padding-top: 20px;
      line-height: 50px;
 }
@@ -3695,10 +3693,9 @@ container */
      background:#7F1108!important;
      box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.32);
      z-index: 999;
-     display:none;
-   
-   
+     display:none; 
 }
+
  .ed-mob-menu-con{
      width: 90%;
      margin: 0 auto;
