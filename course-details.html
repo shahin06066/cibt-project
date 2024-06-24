@@ -361,7 +361,7 @@
                         tortor.</p>
                     <p></p>
                     <p class="help-line">Help Line <span>+8801822889900</span> </p>
-                     <span class="help-arrow pulse"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    <span class="help-arrow pulse"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
               </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
@@ -369,163 +369,95 @@
                     <div class="col s12">
                         <form id="form-horizontal" class="form-horizontal">
                             <div class="form-group">
-                                <h4 style="color: #fff; margin-left: 15px;"> Applicant's Information:</h4>
-                                <p style="color: #fff; margin-left: 15px; font-size: 20px;">General Information:Step 1 out of 3</p>
-                                
-                                <label class="control-label col-sm-3">Full Name:</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
-                                </div>
-                            </div>
-
-
-                            <div class="form-group">
-                                <div class="control-label col-sm-3" >
-                                   <label for="gender">Gender</label>
-                                       <select name="gender" class="col-sm-9">
-                                              <option value="male">Male</option>
-                                              <option value="female">Female</option>
-                                              <option value="other">Other</option>
-                                      </select>
-                                </div> 
-                                 <!-- <input type="text" class="form-control" name="name" placeholder="Enter your gender" required> -->
-                            </div>
+                                <br>
+                                <h4 style="margin-left: 15px;"> Apply Information</h4>
+                                <p style="margin-left: 15px; font-size: 20px;">General Information:</p><hr>
 
 
 
-                            <div class="form-group">
-                                <label class="control-label col-sm-3">Cell Number:</label>
-                                <div class="col-sm-9">
-                                    <input type="number" class="form-control" name="number" placeholder="Enter your cell number" required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3">Gmail:</label>
-                                <div class="col-sm-9">
-                                    <input type="email" class="form-control" name="email" placeholder="Enter your gmail" required>
-                                </div>
-                            </div>
-
-                            <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
-                                <label class="control-label col-sm-3">Education:</label>
+                                <label id="customText" class="control-label col-sm-3">Applicant Type:</label>
                                 <div class="col-sm-9">
                                  <select>
-                                    <option value="year">Graduated</option>
-                                    <option value="year">HSC</option>
-                                    <option value="year">SSC</option>
-							     </select>
+                                    <option value="text">Select Applicant Type</option>
+                                    <option value="female">Local Student(Bangladeshi)</option>
+                                    <option value="other">International Student</option>
+                              </select>
+                             </div>
+                             </div>
+                             
+                               <!-- style="margin-left: 1px; margin-right: 1px;" -->
+
+                               <div class="form-group">
+                                 <label id="customText" class="control-label col-sm-3">Program Type:</label>
+                                 <div class="col-sm-9">
+                                 <select>
+                                    <option value="text">Select Program Type</option>
+                                    <option value="female">Bachelor program</option>
+                                    <option value="other">Masters program</option>
+                                 </select>
+                               </div>
+
+                               <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                  <label id="customText" class="control-label col-sm-3">Last Degree:</label>
+                                  <div class="col-sm-9">
+                                    <select>
+                                      <option value="text">Select Last Degree</option>
+                                      <option value="text">HSC/Alim</option>
+                                      <option value="text">A-level</option>
+                                      <option value="text">Diploma Holder</option>
+                                    </select>
+                                  </div>
+                               </div>
+
+                               <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                  <label id="customText" class="control-label col-sm-3">Programs:</label>
+                                  <div class="col-sm-9">
+                                    <select>
+								       <option>Select Programs:</option>
+								        <option>B.Sc. in Computer Science & Engineering (CSE)</option>
+							         	<option>B.Sc. in Mathematics</option>							
+							         	<option>B.Sc. in Electrical and Electronic Engineering (EEE)</option>
+							        	<option>Department of Accounting </option>
+							        	<option>Department of Finance</option>
+							        	<option>Department of Management</option>
+							        	<option>Department of Marketing</option>
+							        	<option>Department of Tourism and Hospitality Management</option>
+							        	<option>Java Development</option>
+								        <option>Chemical Engineering</option>
+							       </select>
+                                 </div>
+                               </div>
+
+
+                            
+
+                                <div class="form-group" style="margin-left: 1px; margin-right: 1px;">
+                                    <label id="customText" class="control-label col-sm-3">Medium:</label>
+                                <div class="col-sm-9">
+                                <select>
+                                   <option value="text">Select Medium</option>
+                                   <option value="female">General</option>
+                                   <option value="other">English</option>
+                                </select>
+                               </div>
+                               </div>
+                               
+                              
                             </div>
-                            <!-- <div class="form-group">
-                                <label class="control-label col-sm-3">Your City:</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter your city">
-                                </div>
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <label class="control-label col-sm-3">Education:</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter your education">
-                                </div>
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <label class="control-label col-sm-3">Programs:</label>
-                                <div class="col-sm-9">
-                                    <select>
-								<option>Select Undergraduate Programs:</option>
-								<option>B.Sc. in Computer Science & Engineering (CSE)</option>
-								<option>B.Sc. in Mathematics</option>							
-								<option>B.Sc. in Electrical and Electronic Engineering (EEE)</option>
-								<option>Department of Accounting </option>
-								<option>Department of Finance</option>
-								<option>Department of Management</option>
-								<option>Department of Marketing</option>
-								<option>Department of Tourism and Hospitality Management</option>
-								<option>Java Development</option>
-								<option>Chemical Engineering</option>
-							  </select>
-                                </div> -->
-<!-- 
-                                <label class="control-label col-sm-3">Programs:</label>
-                                <div class="col-sm-9">
-                                    <select>
-								<option>Select Graduate Programs</option>
-								<option>Department of Tourism and Hospitality Management</option>
-								<option>Department of Marketing</option>							
-								<option>M.Sc. in Electrical and Electronic Engineering (EEE)</option>
-								<option>Department of Accounting </option>
-								<option>Department of Finance</option>
-								<option>Department of Management</option>
-								<option>Department of Marketing</option>
-								<option>Department of Tourism and Hospitality Management</option>
-								<option>Java Development</option>
-								<option>Chemical Engineering</option>
-							  </select>
-                                </div>
-                            </div> -->
-                            <p></p>
+
                             <div class="form-group mar-bot-0">
                                 <div class="col-sm-offset-3 col-sm-9">
                                     <!-- <i class="waves-effect waves-light light-btn waves-input-wrapper" style=""><input type="submit" value="APPLY NOW" class="waves-button-input"></i> -->
-                                    <a style="font-size: larger;margin-left: 15px;" href="form2.html"><button>Next</button></a>
+                                    <a style="font-size: larger; background-color: aliceblue; padding: 2px;" href="form2.html">Next</a>
                                 </div>
                             </div>
+                            <br>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--SECTION END-->
-  
-        <!-- <div class="container">
-            <h4>Application Form:</h4>
-            <form action="#" method="post">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="gender">Gender</label>
-                    <select id="gender" name="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="birthdate">Date of Birth</label>
-                    <input type="date" id="birthdate" name="birthdate" required>
-                </div>
-                <div class="form-group">
-                    <label for="qualification">Educational Qualification</label>
-                    <input type="text" id="qualification" name="qualification" required>
-                </div>
-                <div class="form-group">
-                    <label for="program">Program of Interest</label>
-                    <select id="program" name="program">
-                        <option value="Computer Science">Computer Science</option>
-                        <option value="Engineering">Engineering</option>
-                        <option value="Business">Business</option>
-                        <option value="Psychology">Psychology</option>
-                         Add more options as needed -->
-                    <!-- </select>
-                </div>
-                <div class="form-group">
-                    <button type="reset">Reset</button>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
-        </div>
-  -->
-    
     <!--SECTION END-->
 
     <!--HEADER SECTION-->
