@@ -3344,10 +3344,9 @@ left: 0;
      line-height: 50px;
 }
  .h-quote {
-     background: url(../images/weather.png);
      position: relative;
      overflow: hidden;
-     padding:100px 0px 100px 0px;
+      padding: 20px 0px 20px 0px;
 }
  .h-quote:before {
      content: '';
