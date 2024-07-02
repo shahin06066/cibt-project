@@ -1708,15 +1708,16 @@ custom css */
      font-size: 10px;
 }
  .top-logo{
-    background-color: #993410 !important;
-      padding: 12px;
-      -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-     -o-transition: all 0.5s ease;
-     transition:all 1s ease;
-     height: fit-content !important;
-     display: flex;
-     /* z-index: 999999999; */
+    background-color: #7F1108;
+    padding: 12px;
+     -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition:all 1s ease-in-out;
+    height: fit-content !important;
+    z-index: 9999999999;
+    display: flex;
+   
 }
  .pop-form{
 }
@@ -3695,6 +3696,7 @@ container */
      display:none; 
 }
 
+
  .ed-mob-menu-con{
      width: 90%;
      margin: 0 auto;
@@ -4875,7 +4877,14 @@ container */
     position: absolute;
     top: 12px;
 }
-.ed-bann-line1{width: 100%;height: 1px;background: #2659ab;display: inline-block;position: absolute;top: 22px;}
+.ed-bann-line1{
+    width: 100%;
+    height: 1px;
+    background: #2659ab;
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+}
 .ed-ban-tit-3{}
 .ed-ban-tit-3-com{
     margin-bottom: 30px;	

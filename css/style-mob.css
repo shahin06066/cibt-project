@@ -8,17 +8,15 @@
    max-width:100%;
    
 }
-.ed-mob-menu{
-    background-color: #7F1108;
-}
-
-
 
 }
 
 /*-------------------------------------------------------*/
 /* When the browser is between 0px and 992px wide,below css will be applied.
 /*-------------------------------------------------------*/
+
+
+
  @media screen and (max-width:992px){
 
     .card-img-size {
@@ -92,7 +90,7 @@
    
     .ed-mob-menu{
         display:block;
-        background-color: #7F1108 !important;
+        background-color: #7F1108;
          height: fit-content;
      
     

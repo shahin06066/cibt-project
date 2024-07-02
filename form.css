@@ -64,6 +64,54 @@
     height: auto;
     margin: 0px 15px;
     }
+    @media (min-width:768px) {
+
+   #custom-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 50px;
+    }
+
+    }
+@media (min-width:1000px) {
+
+    #custom-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 40px;
+    }
+}
+
+@media (min-width:1200px) {
+
+  #custom-section{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: auto;
+  margin: 0px 50px;
+  }
+}
+@media (min-width:1400px) {
+
+  #custom-section{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: auto;
+  margin: 0px 60px;
+  }
+}
+
+
+
+
+
+
 
     .form-controll{
       box-shadow: 2px 2px 2px 2px rgb(136, 186, 243);
