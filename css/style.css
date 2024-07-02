@@ -47,7 +47,7 @@ custom css */
 }
 /* end */
  .com-sp{
-     padding:100px 0px;
+     padding:50px 0px;
 }
  .pad-top-0{
      padding-top:0px;
@@ -56,11 +56,13 @@ custom css */
      padding-bottom:0px;
 }
  .pad-bot-70{
-     padding-bottom:70px;
+     padding-bottom:5px;
+     padding-top: 15px !important;
 }
  .con-title{
      text-align: center;
-     margin-bottom: 40px;
+     margin-bottom: 20px;
+
 }
  .con-title h2{
      font-size: 33px;
@@ -76,7 +78,7 @@ custom css */
 }
  .con-title p{
      font-size: 18px;
-     color: #3f444a;
+     color: black !important;
      font-weight: 300;
 }
  .pad-all-20{
@@ -87,7 +89,7 @@ custom css */
      margin-top: 10px;
 }
  .pad-top-173{
-     padding-top:173px;
+     padding-top:50px;
 }
  .wed-top{
      color: #fff;
